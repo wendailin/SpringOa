@@ -19,5 +19,7 @@ public class MybatisTest {
         List<User>users=userMapper.findAll();
         System.out.println(users);
         System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
     }
 }
