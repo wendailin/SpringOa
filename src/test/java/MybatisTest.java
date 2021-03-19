@@ -18,5 +18,6 @@ public class MybatisTest {
     public void test(){
         List<User>users=userMapper.findAll();
         System.out.println(users);
+        System.out.println("hello");
     }
 }
