@@ -5,4 +5,13 @@
     <select id="findAll" resultType="user">
         select * from user
     </select>
+
+    <select id="findbyID" resultType="user">
+        select * from user where id =#{id}
+    </select>
+
+    <update id="updateUser">
+        update user set name =#{name},password=#{password},phone=#{phone},sex=#{sex},works=#{work} where id=#{id}
+    </update>
 </mapper>
+

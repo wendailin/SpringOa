@@ -12,7 +12,16 @@ private Integer id;
 private String name;
 private String phone;
 private String sex;
-private String work;
+private String works;
+private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public Integer getId() {
         return id;
@@ -47,11 +56,11 @@ private String work;
     }
 
     public String getWork() {
-        return work;
+        return works;
     }
 
     public void setWork(String work) {
-        this.work = work;
+        this.works = work;
     }
 
     @Override
@@ -61,7 +70,8 @@ private String work;
                 ", name='" + name + '\'' +
                 ", phone='" + phone + '\'' +
                 ", sex='" + sex + '\'' +
-                ", work='" + work + '\'' +
+                ", work='" + works + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
 }
